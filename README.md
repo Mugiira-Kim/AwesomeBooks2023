@@ -40,7 +40,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Add-book]** Creates a function to add a new book to the collection, with title and author.
 - **[Remove-book]** Creates a function to remove a book from the collection
