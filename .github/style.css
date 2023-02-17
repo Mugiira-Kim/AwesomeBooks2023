@@ -1,0 +1,53 @@
+label {
+  display: flex;
+}
+
+#wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#book-list {
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
+#book-list li {
+  background-color: #f7f7f7;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#book-list li:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+#book-list li button {
+  margin-left: 10px;
+}
+
+#book-list li p {
+  margin: 0;
+}
+
+#book-list li button#toa {
+  margin-left: 13rem;
+}
+
+hr {
+  color: #000000;
+}
+
+button {
+  margin: 2px;
+  margin-left: 9rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5),
+    -1px -1px 30px rgba(0, 0, 0, 0.2);
+}
