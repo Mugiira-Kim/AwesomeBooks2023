@@ -1,13 +1,13 @@
-<a name="readme-top">AwesomeBooks2023</a>
+<a name="readme-top"></a>
 
 <div align="center">
+  
 
-  <img src="microverse.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
+  <h3><b>Awesome Books</b></h3>
 
 </div>
 
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -18,44 +18,72 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
-# 📖 [AwesomeBooks2023] <a name="about-project"></a>
+# 📖 [Awesome-Books] <a name="about-project"></a>
 
-> A collection to keep a list of books using an array of objects. 
+> A basic website that allows users to add/remove books from a list.
 
+**[Awesome-Books]** is a basic website that allows users to add/remove books from a list using JavaScript objects and arrays.
 
-## 🛠 Built With <a name="built-with"> Vanilla JS</a>
-
+## 🛠 Built With <a name="built-with"></a>
+Javascript
 ### Tech Stack <a name="tech-stack"></a>
 
-> Only Vanilla JavaScript has been used, without any libraries or frameworks.
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">NA</a></li>
+  </ul>
+</details>
 
 
 ### Key Features <a name="key-features"></a>
 
+>
+-  A collection that keeps a list of books. 
+-  One can add a new book to the collection, with title and author.
+-  One can remove a book from the collection
 
-- **[Add-book]** Creates a function to add a new book to the collection, with title and author.
-- **[Remove-book]** Creates a function to remove a book from the collection
-- **[Display-book]** Displays all books saved in the collection in the top part of the page.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- 
+> N/A
 
-- [Live Demo Link](https://github.com/Mugiira-Kim)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -65,54 +93,112 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-- Code Editor
+
+
+
+
+```sh
+  install git
+```
+
 
 ### Setup
 
-Simply clone this repository to your desired folder and run it. 
+Clone this repository to your desired folder:
 
+
+
+```sh
+  cd my-folder
+  git clone git@github.com:Mugiira-Kim/AwesomeBooks2023.git
+```
+
+### Install
+
+Install this project with:
+
+
+```sh
+  cd my-project
+  run code
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+```sh
+ cd my-project
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+  N/A
+```
+
+
+### Deployment
+
+You can deploy this project using:
+
+
+```sh
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **Author1**
 
-- GitHub: [@Mugiira-Kim](https://github.com/Mugiira-Kim)
-- Twitter: [@Mugiira-Kim](https://twitter.com)
-- LinkedIn: [LinkedIn](https://linkedin.com)
+- GitHub: [@Mugiira-Kim](https://github.com/githubhandle)
+- Twitter: [@Mugiira](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://linkedin.com/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- To use JavaScript classes instead of objects and arrays 
+- To add CSS styles to the application to make it match a wireframe
+- To create class methods to add and remove books. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mugiira-Kim/AwesomeBooks2023/issues).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
+If you like this project spread the word. 
 
-If you like this project share it!
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank the Microverse Organization
-
-
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+I would like to thank the Microverse community. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
