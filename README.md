@@ -172,11 +172,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ To use JavaScript classes instead of objects and arrays ] **[new_feature_1]**
-- [ To add CSS styles to the application to make it match a wireframe] **[new_feature_2]**
-- [ To create class methods to add and remove books. ] **[new_feature_3]**
+- To use JavaScript classes instead of objects and arrays 
+- To add CSS styles to the application to make it match a wireframe
+- To create class methods to add and remove books. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
