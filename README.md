@@ -69,9 +69,9 @@ Javascript
 ### Key Features <a name="key-features"></a>
 
 >
-- **[key_feature_1]** A collection that keeps a list of books. 
-- **[key_feature_2]** One can add a new book to the collection, with title and author.
-- **[key_feature_3]** One can remove a book from the collection
+-  A collection that keeps a list of books. 
+-  One can add a new book to the collection, with title and author.
+-  One can remove a book from the collection
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
