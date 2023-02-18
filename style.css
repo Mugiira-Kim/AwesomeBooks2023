@@ -11,8 +11,18 @@ label {
   align-items: center;
 }
 
+button {
+  margin: 2px;
+  margin-left: 9rem;
+  border-radius: 10px;
+  box-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.5),
+    10px 10px 15px rgba(0, 0, 0, 0.5),
+    -1px -1px 30px rgba(0, 0, 0, 0.2);
+}
+
 #book-list {
-  border: 3px solid #000000;
+  border: 3px solid #000;
   padding: 10px;
 }
 
@@ -41,13 +51,5 @@ label {
 }
 
 hr {
-  color: #000000;
-}
-
-button {
-  margin: 2px;
-  margin-left: 9rem;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5),
-    -1px -1px 30px rgba(0, 0, 0, 0.2);
+  color: #000;
 }
