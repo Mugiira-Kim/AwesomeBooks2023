@@ -1,55 +1,135 @@
-label {
+body {
+  margin: 0;
+  padding: 1vw;
+  font-family: sans-serif;
+  height: 100vh;
+  flex: 1;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#wrapper {
-  max-width: 600px;
-  margin: 0 auto;
+nav li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li a {
+  color: black;
+}
+
+.books-section h1 {
+  text-align: center;
+}
+
+.elements {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  align-items: center;
+}
+
+.hrbar {
+  width: 30vw;
+  margin-top: 5vh;
+}
+
+/* section: add book */
+.books-add-section {
+  display: none;
   flex-direction: column;
   align-items: center;
 }
 
-button {
-  margin: 2px;
-  margin-left: 9rem;
-  border-radius: 10px;
-  box-shadow:
-    2px 2px 5px rgba(0, 0, 0, 0.5),
-    10px 10px 15px rgba(0, 0, 0, 0.5),
-    -1px -1px 30px rgba(0, 0, 0, 0.2);
+.title,
+.author {
+  width: 60vw;
+  height: 25px;
 }
 
-#book-list {
-  border: 3px solid #000;
-  padding: 10px;
+.Add {
+  align-self: flex-end;
 }
 
-#book-list li {
-  background-color: #f7f7f7;
-  padding: 10px;
+.remove-button {
+  border: solid black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.books-section {
+  align-items: center;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.grey-background {
+  background-color: #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin-bottom: 1vh;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.book-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.date-row {
+  display: flex;
+  justify-content: right;
+  padding-right: 10px;
+}
+
+footer {
+  border: solid black;
+  padding: 2vh 2vw;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.validate-error {
+  display: none;
+  color: red;
+}
+
+.main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-#book-list li:nth-child(odd) {
-  background-color: #eaeaea;
+.contact-us {
+  display: none;
+  justify-content: center;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
 }
 
-#book-list li button {
-  margin-left: 10px;
-}
+@media screen and (min-width: 768px) {
+  .title,
+  .author,
+  .elements {
+    width: 30vw;
+  }
 
-#book-list li p {
-  margin: 0;
-}
-
-#book-list li button#toa {
-  margin-left: 13rem;
-}
-
-hr {
-  color: #000;
+  body {
+    padding: 0 5vw;
+  }
 }
